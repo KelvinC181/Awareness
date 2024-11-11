@@ -103,6 +103,14 @@ body {
     width: 100%;
 }
 
+.awareness h3 {
+    color: var(--primary-color);
+}
+
+.awareness p {
+    color: var(--secondary-color);
+}
+
 /* hero */
 .hero {
     position: relative;
