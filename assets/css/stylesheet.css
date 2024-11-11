@@ -69,6 +69,30 @@ body {
     background-color: var(--base-color);
 }
 
+/* main */
+
+/* hero */
+.hero {
+    position: relative;
+    height: 60vh;
+    background: url('../images/heroimage.png') no-repeat center center/cover;
+}
+
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-text h1, .hero-text p {
+    margin: 0;
+}
+
 /* footer */
 footer {
     color: var(--primary-color);
