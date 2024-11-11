@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Learn about common mental health issues affecting individuals.">
+    <meta name="description" content="Learn about common mental health issues affecting individuals.">
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -53,7 +52,62 @@
 
 
     <!-- main content -->
-    <div>information</div>
+    <main class="container-fluid">
+        <div class="row">
+            <!-- Toggle Button for Sidebar -->
+            <div>
+            <button class="btn d-md-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar"
+                aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+                show index
+            </button>
+            </div>
+
+            <!-- Sidebar -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Item 1
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Item 2
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Item 3
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Item 4
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content area -->
+            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <!-- Your main content goes here -->
+                <div class="row">
+                    <div class="col-12"></div>
+                    <div class="col-12 col-lg-4">photo</div>
+                    <div class="col-12 col-lg-8">text</div>
+                    <div class="col-12 col-lg-4">photo</div>
+                    <div class="col-12 col-lg-8">text</div>
+                    <div class="col-12 col-lg-4">photo</div>
+                    <div class="col-12 col-lg-8">text</div>
+                    <div class="col-12 col-lg-4">photo</div>
+                    <div class="col-12 col-lg-8">text</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
 
     <!-- footer -->
     <!-- footer -->
