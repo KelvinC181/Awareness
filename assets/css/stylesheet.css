@@ -76,7 +76,7 @@ body {
 /* main */
 
 /* about */
-.aboutimg {
+.about-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,14 +150,24 @@ footer .btn:hover {
 
 /* medium screens (768px and above) */
 @media screen and (max-width: 768px) {
+    /* navigation */
     #logo {
         font-size: 2rem; /*fix navbar ovcerflow issue */
     }
 
+    /*main */
+    /*about */
+    .about img {
+        width: 50%;
+    }
 }
 
 /* large screens (992px and above) */
 @media screen and (min-width: 992px) {
-    
+    /*main */
+    /*about */
+    .about img {
+        width: 70%;
+    }
 }
 
