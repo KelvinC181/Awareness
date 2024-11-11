@@ -56,7 +56,7 @@ nav .navbar-brand, nav .nav-link {
 
 nav .btn {
     background-color: var(--feature-color-2);
-    color: var(--primary-colorbase-color);
+    color: var(--primary-color);
     border: var(--feature-color-2) 2px solid;
     font-family: var(--primary-font);
 }
@@ -111,6 +111,19 @@ body {
     color: var(--secondary-color);
 }
 
+.awareness .btn {
+    background-color: var(--feature-color-2);
+    color: var(--primary-color);
+    border: var(--feature-color-2) 2px solid;
+    font-family: var(--primary-font);
+}
+
+.awareness .btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: var(--primary-color) 2px solid;
+}
+
 /* hero */
 .hero {
     position: relative;
@@ -153,7 +166,7 @@ footer i {
 
 footer .btn {
     background-color: var(--feature-color-2);
-    color: var(--primary-colorbase-color);
+    color: var(--primary-color);
     border: var(--feature-color-2) 2px solid;
     font-family: var(--primary-font);
 }
@@ -167,7 +180,7 @@ footer .btn:hover {
 /* media queries */
 
 /* medium screens (768px and above) */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     /* navigation */
     #logo {
         font-size: 2rem; /*fix navbar ovcerflow issue */
