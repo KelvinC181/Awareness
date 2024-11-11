@@ -153,6 +153,14 @@ body {
 .sidebar {
     background-color: var(--base-color);
 }
+
+.info .btn {
+    background-color: var(--feature-color-2);
+    color: var(--primary-color);
+    border: var(--feature-color-2) 2px solid;
+    font-family: var(--primary-font);
+}
+
 .sidebar hr {
     margin: 0;
 }
