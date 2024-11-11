@@ -127,6 +127,7 @@ footer .btn:hover {
 /* media queries */
 
 /* tablet screens (768px and above) */
+
 @media screen and (min-width: 768px) {
     #logo {
         font-size: 2rem; /*fix navbar ovcerflow issue */
