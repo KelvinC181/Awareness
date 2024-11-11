@@ -13,7 +13,7 @@
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Inter", sans-serif;
     --base-color: #F8F5EE; /* light yellow */
-    --primary-color: #031c36; /* dark blue */
+    --primary-color: #031e3a; /* dark blue */
     --secondary-color: #14467c; /* blue */
     --feature-color-1: #F9CC48; /* yellow */
     --feature-color-2: #52B774; /* green */
@@ -25,6 +25,20 @@
 nav {
     font-family: var(--primary-font);
     background-color: var(--feature-color-1);
+}
+
+nav .navbar-brand, nav .nav-link {
+    color: var(--primary-color);
+}
+
+#active {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#logo {
+    font-size: 2rem;
 }
 
 /* body */
