@@ -30,10 +30,8 @@ nav {
 /* body */
 body {
     font-family: var(--secondary-font);
-    background-color: var(--base-color); /*light yellow */
+    background-color: var(--base-color);
 }
-
-
 
 /* footer */
 footer {
