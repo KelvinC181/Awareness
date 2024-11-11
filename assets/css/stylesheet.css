@@ -13,7 +13,7 @@
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Inter", sans-serif;
     --base-color: #F8F5EE; /* light yellow */
-    --primary-color: #031e3a; /* dark blue */
+    --primary-color: #01254b; /* dark blue */
     --secondary-color: #14467c; /* blue */
     --feature-color-1: #F9CC48; /* yellow */
     --feature-color-2: #52B774; /* green */
@@ -54,6 +54,7 @@ nav .btn {
     color: var(--primary-colorbase-color);
     border: var(--feature-color-2) 2px solid;
 }
+
 nav .btn:hover {
     background-color: var(--primary-color);
     color: white;
@@ -68,6 +69,25 @@ body {
 
 /* footer */
 footer {
+    color: var(--primary-color);
     font-family: var(--secondary-font);
     background-color: var(--feature-color-1);
+}
+
+footer i {
+    color: var(--primary-color);
+    font-size: x-large;
+    margin: auto 1rem;
+}
+
+footer .btn {
+    background-color: var(--feature-color-2);
+    color: var(--primary-colorbase-color);
+    border: var(--feature-color-2) 2px solid;
+}
+
+footer .btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: var(--primary-color) 2px solid;
 }
