@@ -97,6 +97,12 @@ body {
     color: var(--secondary-color);
 }
 
+/* awareness */
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 /* hero */
 .hero {
     position: relative;
