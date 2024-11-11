@@ -6,15 +6,37 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #F8F5EE; /*light yellow */
 }
 
-/*general styles */
+/* css variables */
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Inter", sans-serif;
+    --base-color: #F8F5EE; /* light yellow */
     --primary-color: #031c36; /* dark blue */
     --secondary-color: #14467c; /* blue */
     --feature-color-1: #F9CC48; /* yellow */
     --feature-color-2: #52B774; /* green */
+}
+
+/* general styles */
+
+/* navigation */
+nav {
+    font-family: var(--primary-font);
+    background-color: var(--feature-color-1);
+}
+
+/* body */
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--base-color); /*light yellow */
+}
+
+
+
+/* footer */
+footer {
+    font-family: var(--secondary-font);
+    background-color: var(--feature-color-1);
 }
