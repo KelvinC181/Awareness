@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+.section {
+    padding-top: 2rem;
+}
+
 .sharp-button {
     border-radius: 0;
 }
@@ -70,6 +74,24 @@ body {
 }
 
 /* main */
+
+/* about */
+.aboutimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img {
+    width: 75%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto; /* Center the image horizontally and vertically */
+}
+
+.about p {
+    color: var(--secondary-color);
+}
 
 /* hero */
 .hero {
@@ -126,11 +148,16 @@ footer .btn:hover {
 
 /* media queries */
 
-/* tablet screens (768px and above) */
-
-@media screen and (min-width: 768px) {
+/* medium screens (768px and above) */
+@media screen and (max-width: 768px) {
     #logo {
         font-size: 2rem; /*fix navbar ovcerflow issue */
     }
+
+}
+
+/* large screens (992px and above) */
+@media screen and (min-width: 992px) {
+    
 }
 
