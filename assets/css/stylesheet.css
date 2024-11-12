@@ -266,8 +266,13 @@ footer .btn:hover {
     }
 
     /* resources */
+    #resources .card-title {
+        font-size: x-large;
+        min-height: 57.59px; /* line up card titels */
+    }
+
     #resources .card-body {
-        min-height: 340.42px; /* line up card bodies */
+        min-height: 313.58px; /* line up card bodies */
     }
 
     #resources .card-footer {
@@ -280,6 +285,11 @@ footer .btn:hover {
     /*main */
 
     /* resources */
+    #resources .card-title {
+        font-size: calc(1.325rem + .9vw);
+        min-height: 57.59px; /* line up card titels */
+    }
+
     #resources .card-body {
         min-height: 284.78px; /* line up card bodies */
     }
