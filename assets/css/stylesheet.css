@@ -34,6 +34,24 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sticky-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+      z-index: 1020;
+    }
+  }
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sticky-top2 {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 76px;
+      z-index: 1019;
+    }
+} 
+
 /* navigation */
 nav {
     background-color: var(--feature-color-1);
