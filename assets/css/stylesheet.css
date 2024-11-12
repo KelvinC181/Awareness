@@ -91,7 +91,6 @@ body {
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -120,10 +119,6 @@ body {
     margin: auto; /* Center the image horizontally and vertically */
 }
 
-.about p {
-    color: var(--secondary-color);
-}
-
 /* awareness */
 .youtube-video {
     aspect-ratio: 16 / 9;
@@ -132,10 +127,6 @@ body {
 
 .awareness h3 {
     color: var(--primary-color);
-}
-
-.awareness p {
-    color: var(--secondary-color);
 }
 
 .awareness .btn {
