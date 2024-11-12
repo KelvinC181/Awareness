@@ -52,6 +52,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 } 
 
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sticky-top3 {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 116px;
+      z-index: 1018;
+    }
+} 
+
 /* navigation */
 nav {
     background-color: var(--feature-color-1);
