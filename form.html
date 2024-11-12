@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Contact us by filling out this form.">
+    <meta name="description" content="Contact us by filling out this form.">
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -52,8 +51,51 @@
     </nav>
 
 
-    <!-- main content -->
-    <div>body</div>
+    <!-- Contact Form -->
+    <div class="container section" id="contact">
+        <h1 class="mb-4">Contact Us</h1>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter your phone number"
+                    required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Adress</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                    required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" name="message" placeholder="Enter your message"
+                    required></textarea>
+            </div>
+            <button type="submit" class="btn sharp-corner">Submit</button>
+        </form>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Confirmation</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your message has been sent successfully!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
     <footer class="mt-auto contact">
@@ -93,6 +135,15 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/67187a987e.js" crossorigin="anonymous"></script>
+
+    <!-- modal js -->
+    <script>
+        document.getElementById('contact').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var confirmationModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+            confirmationModal.show();
+        });
+    </script>
 </body>
 
 </html>

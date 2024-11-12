@@ -156,6 +156,12 @@ body {
     font-family: var(--primary-font);
 }
 
+.info .btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: var(--primary-color) 2px solid;
+}
+
 .sidebar hr {
     margin: 0;
 }
@@ -219,6 +225,20 @@ footer .btn {
 }
 
 footer .btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: var(--primary-color) 2px solid;
+}
+
+/* contact form */
+#contact .btn {
+    background-color: var(--feature-color-2);
+    color: var(--primary-color);
+    border: var(--feature-color-2) 2px solid;
+    font-family: var(--primary-font);
+}
+
+#contact .btn:hover {
     background-color: var(--primary-color);
     color: white;
     border: var(--primary-color) 2px solid;
