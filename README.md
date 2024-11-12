@@ -3,7 +3,36 @@
 Awareness is my first website created on my own, it is a project to design a responsive site for mental health awareness using HTML, CSS and Bootstrap.  In the project, I try to adept a structural design process, make often and practical commits, and keep to best coding practice. Secondly, the project is also a first attemp to implicate use of AI to assist the design and coding process.
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](assets/images/readme/readmecover.png)
+
+## Design
+
+To ensure a mindful product with complete features, my design process follows a logical workflow.
+
+### User Stories
+
+First off all, I identified users by using copilot to generate some user examples and then filtered and added my own ideas.  Following the same logic I then propmted copilot to generate user stories and then filtered and added my own on top.
+
+<img src="assets/images/readme/users.jpg" alt="copilot users" width=50%>
+<img src="assets/images/readme/stories.jpg" alt="copilot users" width=50%>
+
+<p style="margin-bottom: 20px;"></p>
+
+Then I then created issues after identifying the acceptance criteria and tasks associate with the user stories.  With this I identified what features I would like in the website.  Finally, I then decided their importance in the website and set their priority in the project (please see the linked project Awareness User Story).
+
+### Layout and Color Scheme/Fonts
+
+I then used balsamic to create layouts of the three pages I planned on having.  I created 3 differnt layouts for each page targeting mobile, tablet and desktop devices.  In these layouts, I considered what I would believe to look best and is most natural to view on each screen size and designed my responsive grid/features accordingly.
+
+<img src="assets/images/readme/layout1.jpg" alt="copilot users" width=50%>
+<img src="assets/images/readme/layout2.jpg" alt="copilot users" width=50%>
+<img src="assets/images/readme/layout3.jpg" alt="copilot users" width=50%>
+
+<p style="margin-bottom: 20px;"></p>
+
+I picked my color scheme and fonts with consideration of users in mind.  I wanted the site to be warm and welcoming to individuals who need help, but keep a professional and clear look to appear trustworthy.  In the end, I settled on a color scheme of yellow blue and green in refernce of advice found on [this article](https://bungalowwebdesign.com/7-best-color-palettes-for-therapy-websites-in-2023-examples/).  I choose yellow as the warm basetone to the website and blue as a contrast color as text color, green is used as a feature color as green ribbon is a representation for mental health awareness.  You can find the full set of color scheme in my css file as css variables.
+
+I picked Poppin for all headings and features to give a professional look to the website and PT serif for inner text for a softer, easier to look at style.
 
 ## Features 
 
