@@ -249,6 +249,19 @@ footer .btn:hover {
     border: var(--primary-color) 2px solid;
 }
 
+/* confirmation modal */
+#staticBackdrop .modal-content {
+    background-color: var(--base-color);
+}
+
+#staticBackdrop .modal-header {
+    background-color: var(--feature-color-1);
+}
+
+#staticBackdrop .modal-footer {
+    background-color: var(--feature-color-1);
+}
+
 /* media queries */
 
 /* medium screens (768px and above) */
