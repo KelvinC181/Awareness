@@ -34,33 +34,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sticky-top {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0px;
-      z-index: 1020;
-    }
-  }
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sticky-top2 {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 76px;
-      z-index: 1019;
-    }
-} 
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sticky-top3 {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 116px;
-      z-index: 1018;
-    }
-} 
-
 /* navigation */
 nav {
     background-color: var(--feature-color-1);
@@ -108,7 +81,6 @@ body {
     height: 60vh;
     background: url('../images/heroimage.png') no-repeat center center/cover;
 }
-
 
 .hero-text {
     position: absolute;
@@ -179,6 +151,7 @@ body {
 /* sidebar */
 .sidebar {
     background-color: var(--base-color);
+    top: 116px; /* fix the navbar overlap issue . NOT REALLY XD*/
 }
 
 .info .btn {
@@ -193,11 +166,21 @@ body {
 }
 
 /* info-main */
+.info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .info-img img {
     width: 100%;
 }
-   
 
+.button-container {
+    top: 76px;
+    background-color: var(--base-color);
+}
+   
 
 /* footer */
 footer {
@@ -238,6 +221,13 @@ footer .btn:hover {
     }
 
     /*main */
+    /* info */
+    .sidebar {
+        background-color: var(--base-color);
+        top: 76px; /* fix the navbar overlap issue . NOT REALLY XD*/
+        z-index: 1019;
+    }
+
     /*about */
     .about img {
         width: 50%;
