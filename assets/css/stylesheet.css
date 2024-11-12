@@ -83,7 +83,7 @@ body {
 .hero {
     position: relative;
     height: 60vh;
-    background: url('../images/heroimage.png') no-repeat center center/cover;
+    background: url('../images/heroimage.webp') no-repeat center center/cover;
 }
 
 .hero-text {
