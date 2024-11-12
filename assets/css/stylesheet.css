@@ -164,6 +164,11 @@ body {
 .sidebar hr {
     margin: 0;
 }
+
+/* info-main */
+.info-img img {
+    width: 100%;
+}
    
 
 
