@@ -1,6 +1,6 @@
 # Awareness (PP1)
 
-Awareness is my first website created on my own, it is a project to design a responsive site for mental health awareness using HTML, CSS and Bootstrap.  In the project, I try to adept a structural design process, make often and practical commits, and keep to best coding practice. Secondly, the project is also a first attemp to implicate use of AI to assist the design and coding process.
+Awareness is my first website created on my own, it is a project to design a responsive site for mental health awareness using HTML, CSS and Bootstrap.  In the project, I try to adept a structural design process, make often and practical commits, and keep to best coding practice. Secondly, the project is also a first attemp to implicate use of AI to assist the design and coding process.  All the images excpet existing logos are generate with microsoft designer.
 
 
 ![Responsice Mockup](assets/images/readme/readmecover.png)
