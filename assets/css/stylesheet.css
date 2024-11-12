@@ -353,7 +353,7 @@ footer .btn:hover {
     
     /* resources */
     #resources .card-body {
-        min-height: 236.78; /* line up card bodies */
+        min-height: 236.78px; /* line up card bodies */
     }
 
     #resources .card-footer {
