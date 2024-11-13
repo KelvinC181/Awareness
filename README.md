@@ -71,36 +71,60 @@ In this project, all features are designed in a mobile first approach.  I build 
   - This section gives a short introduction to the importance of awareness and prevention of mental health issues, and has an embedded video about the topic and a call to action button leading to the next section. 
   - This section highlights the importance of awareness and prevention, then gives more detail through the embedded video to encourage call to action.
 
-<img src="documentation/readme/a&p.jpg" alt="about us section image" width=100%>
+<img src="documentation/readme/a&p.jpg" alt="awareness and prevention section image" width=100%>
 <p style="margin-bottom: 20px;"></p>
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant contact details and social media sites for Awareness. There is also a call to action button. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The fully respooinsive footer section includes links to the relevant contact details and social media sites for Awareness. There is also a call to action button to contact us. 
+  - The footer is valuable to the user as it encourages them to contact us to find help.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<img src="documentation/readme/footer1.jpg" alt="footer desktop view" width=100%>
+<img src="documentation/readme/footer2.jpg" alt="footer tablet view" width=70%>
+<img src="documentation/readme/footer3.jpg" alt="footer mobile view" width=50%>
+<p style="margin-bottom: 20px;"></p>
 
-- __Gallery__
+- __Sidebar__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The fully responsive sidebar has links to each topic of the common issue section. 
+  - This sidebar helps users navigate to the topics they want to see quickly and easily. 
+  - *I would like to make the sidebar close when navbar is clicked on but this requires javascript and will be updated in the future*
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<img src="documentation/readme/sidebar1.jpg" alt="sidebar desktop view" width=33%>
+<img src="documentation/readme/sidebar2.jpg" alt="sidebar mobile view collapsed" width=33%>
+<img src="documentation/readme/sidebar3.jpg" alt="footer mobile view" width=33%>
+<p style="margin-bottom: 20px;"></p>
 
-- __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+- __Common Issues__
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  - This page containes simple information about some common mental health issues.  Each topic also contains a call to action button linking to related pages with more detailed information.
+  - This page gives brief information to users and encourage them to find out more about these issues.  This should encourage users to learn about mental health and possibly identify their problem and if they need professional help.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+<img src="documentation/readme/info.jpg" alt="common issue section" width=100%>
+<p style="margin-bottom: 20px;"></p>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- __Resources/Find Help__
+
+  - This page consists of bootstrap cards regarding external resources for finding help for mental health issues.  Each card contains an image of the logo of the resourse, a brief description and a call to action for the user to visit the resource.
+  - This page serves as the main call to action of the website, it provides serveral resources for individuals who wants to seek help to actually find help and contact professionals, and hope to make it easy and intuative to do so.
+
+<img src="documentation/readme/help.jpg" alt="find help section" width=100%>
+<p style="margin-bottom: 20px;"></p>
+
+- __Contact Form__
+
+  - This is a form for users to fill in in their contact information so they could be contacted for any futhre inquiries.  A modual is included to provide confirmation that the form is submitted correctly.
+  - This provides a method of call to action for users in need to seek help by providing more options to those with other unincluded mental health issues.
+
+<img src="documentation/readme/form.jpg" alt="contact form" width=80%>
+<img src="documentation/readme/modal.jpg" alt="confirmation modal" width=19%>
+<p style="margin-bottom: 20px;"></p>
 
 ### Features Left to Implement
 
-- Another feature idea
+- Events Section: Contains recent mental health wellness events that are updated.
+- User Testimonies: For users to sumbit and view messages and stories of their mental health journey.
 
 ## Testing 
 
