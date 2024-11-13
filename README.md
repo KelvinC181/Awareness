@@ -3,7 +3,7 @@
 Awareness is my first website created on my own, it is a project to design a responsive site for mental health awareness using HTML, CSS and Bootstrap.  In the project, I try to adept a structural design process, make often and practical commits, and keep to best coding practice. Secondly, the project is also a first attemp to implicate use of AI to assist the design and coding process.  All the images excpet existing logos are generate with microsoft designer.
 
 
-![Responsice Mockup](assets/images/readme/readmecover.png)
+![Responsice Mockup](documentation/readme/readmecover.png)
 
 ## Design
 
@@ -11,22 +11,22 @@ To ensure a mindful product with complete features, my design process follows a 
 
 ### User Stories
 
-First off all, I identified users by using copilot to generate some user examples and then filtered and added my own ideas.  Following the same logic I then propmted copilot to generate user stories and then filtered and added my own on top.
+First off all, I identified users by using copilot to generate some user examples and then filtered and added my own ideas. I identified the users as mostly individuals who are seeking for help/friends and family of such individuals so our call to action is for them to find help and connecting with us. Following the same logic I then propmted copilot to generate user stories and then filtered and added my own on top.
 
-<img src="assets/images/readme/users.jpg" alt="copilot users" width=50%>
-<img src="assets/images/readme/stories.jpg" alt="copilot users" width=50%>
+<img src="documentation/readme/users.jpg" alt="copilot users" width=49%>
+<img src="documentation/readme/stories.jpg" alt="copilot users" width=49%>
 
 <p style="margin-bottom: 20px;"></p>
 
-Then I then created issues after identifying the acceptance criteria and tasks associate with the user stories.  With this I identified what features I would like in the website.  Finally, I then decided their importance in the website and set their priority in the project (please see the linked project Awareness User Story).
+Next I created issues after identifying the acceptance criteria and tasks associate with the user stories.  With this I identified what features I would like in the website.  Finally, I then decided their importance in the website and set their priority in the project (please see the linked project Awareness User Story).
 
 ### Layout and Color Scheme/Fonts
 
 I then used balsamic to create layouts of the three pages I planned on having.  I created 3 differnt layouts for each page targeting mobile, tablet and desktop devices.  In these layouts, I considered what I would believe to look best and is most natural to view on each screen size and designed my responsive grid/features accordingly.
 
-<img src="assets/images/readme/layout1.jpg" alt="copilot users" width=50%>
-<img src="assets/images/readme/layout2.jpg" alt="copilot users" width=50%>
-<img src="assets/images/readme/layout3.jpg" alt="copilot users" width=50%>
+<img src="documentation/readme/layout1.jpg" alt="copilot users" width=33%>
+<img src="documentation/readme/layout2.jpg" alt="copilot users" width=33%>
+<img src="documentation/readme/layout3.jpg" alt="copilot users" width=33%>
 
 <p style="margin-bottom: 20px;"></p>
 
@@ -42,35 +42,41 @@ In this project, all features are designed in a mobile first approach.  I build 
 
 - __Navigation Bar__
 
-  - Featured on all pages, the full responsive navigation bar includes links to Home page, Common Issues page and Find Help  page and a button connecting to the sign up form for easy navigation.
+  - Featured on all pages, the full responsive navigation bar includes links to Home page, Common Issues page, Find Help page and a button connecting to the sign up form for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+<img src="documentation/readme/navbar1.jpg" alt="navbar desktop view" width=100%>
+<img src="documentation/readme/navbar2.jpg" alt="navbar tablet view" width=70%>
+<img src="documentation/readme/navbar3.jpg" alt="navbar mobile view" width=50%>
+<p style="margin-bottom: 20px;"></p>
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes an illustration with text overlay to allow the user to quicky identify the website's purpose. 
+  - This section introduces the user to Awareness with a welcoming image and quickly intergrates the using to the site.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+<img src="documentation/readme/landing.jpg" alt="awareness landing image" width=100%>
+<p style="margin-bottom: 20px;"></p>
 
-- __Club Ethos Section__
+- __About Us__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The about us section describes in a more detailed manner our purpose, and also gives instruction of how to use the site. 
+  - This helps first time user understand the purpose of our site and guides the user to navigate the site.  This should hopefully make it more likely that our targeted user will find the help they need using our site.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+<img src="documentation/readme/aboutus.jpg" alt="about us section image" width=100%>
+<p style="margin-bottom: 20px;"></p>
 
-- __Meetup Times section__
+- __Awareness and Prevension__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section gives a short introduction to the importance of awareness and prevention of mental health issues, and has an embedded video about the topic and a call to action button leading to the next section. 
+  - This section highlights the importance of awareness and prevention, then gives more detail through the embedded video to encourage call to action.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<img src="documentation/readme/a&p.jpg" alt="about us section image" width=100%>
+<p style="margin-bottom: 20px;"></p>
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant contact details and social media sites for Awareness. There is also a call to action button. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
