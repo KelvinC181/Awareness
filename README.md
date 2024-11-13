@@ -128,13 +128,15 @@ In this project, all features are designed in a mobile first approach.  I build 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+My project went through multiple tests.  I conduct tests on features whenever I "finish" a feature and whenever I add other features that may interact with an older feature.  This allowed me to constantly find bugs and inconsitency in the project, then correct and modify the project accoringly.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+At the end of the project I futher tested the website by using validators and lighthouse to validate and ensure performance of the project.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+My project is full responsive, and will automatically resize and reorder items using a responsive bootstrap grid and custom css at different screensize breakpoints.  This is to ensure that the website is easy to read and good to look at with any device.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+There are a few features I would consider as "bugs" but these will require javascript to amend, and will be updated in the future.
+- navbar should close when anywhere else is clicked on the screen.
+- sidebar should close when anywhere else is clicked on the screen.
 
 
 ### Validator Testing 
