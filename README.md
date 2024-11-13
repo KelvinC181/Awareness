@@ -146,6 +146,17 @@ My project is full responsive, and will automatically resize and reorder items u
   - No errors were found when passing through the official W3C(Jigsaw) validator
   - [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkelvinc181.github.io%2FAwareness%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- Lighthouse
+  - Good scores were achieved in lighthouse
+  - Best practice score in index.html due to youtube embed
+  
+  <p style="margin-bottom: 20px;"></p>
+  <img src="documentation/readme/lighthouse1.jpg" alt="lighthouse for index.html" width=49%>
+  <img src="documentation/readme/lighthouse2.jpg" alt="lighthouse for info.html" width=49%>
+  <img src="documentation/readme/lighthouse3.jpg" alt="lighthouse for resources.html" width=49%>
+  <img src="documentation/readme/lighthouse4.jpg" alt="lighthouse for form.html" width=49%>
+  <p style="margin-bottom: 20px;"></p>
+
 ### Unfixed Bugs
 
 There are a few features I would consider as "bugs" but these will require javascript to amend, and will be updated in the future.
